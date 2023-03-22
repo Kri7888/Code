@@ -1,0 +1,9 @@
+for _ in range(int(input())):
+    a,b,c=map(int,input().split())
+    x=(a+b)/2
+    y=(b+c)/2
+    z=(a+c)/2
+    if(x>=35 and y>=35 and z>=35):
+        print("Pass") 
+    else:
+        print("Fail") 
